@@ -1,0 +1,15 @@
+v 1.0
+d {bf:GEOFLOW}: A Stata package for flows
+d
+d KW: Stata
+d KW: graphs
+d KW: gis
+d
+d Distribution-Date: 20250112
+d License: MIT
+d
+d Author: Asjad Naqvi
+d E-mail: asjadnaqvi@gmail.com
+d
+f geoflow.ado
+f geoflow.sthlp
