@@ -112,7 +112,7 @@ compress
 save iso_meta, replace 
 ```
 
-This create our master nodes file that also contains the locations.
+This create our master node attributes file that also contains the coordinates.
 
 
 Load the sample trade data file derived from COMTRADE [BACI](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37) for 2022:
