@@ -44,7 +44,6 @@ syntax varlist(min=1 max=1) [if] [in] using/, From(varname) To(varname) key(stri
 		marksample touse, strok
 
 		keep if `touse'
-
 		keep `varlist' `by' `exp' `from' `to'
 		
 		if "`top'"!="" {
@@ -57,8 +56,8 @@ syntax varlist(min=1 max=1) [if] [in] using/, From(varname) To(varname) key(stri
 		**** exports iso3
 		ren `from' `key'
 		merge m:1 `key' using `using', keepusing(_CX _CY _ID)
-		drop if _m==2
-		drop _m
+		capture drop if _m==2
+		capture drop _m
 		ren `key' `from'
 		ren _CX  _X1
 		ren _CY  _Y1
@@ -69,8 +68,8 @@ syntax varlist(min=1 max=1) [if] [in] using/, From(varname) To(varname) key(stri
 		**** imports iso3
 		ren `to' `key'
 		merge m:1 `key' using `using', keepusing(_CX _CY _ID)
-		drop if _m==2
-		drop _m
+		capture drop if _m==2
+		capture drop _m
 		ren `key' `to'
 		ren _CX  _X2
 		ren _CY  _Y2
@@ -127,8 +126,8 @@ syntax varlist(min=1 max=1) [if] [in] using/, From(varname) To(varname) key(stri
 		ren _ID _sort
 		
 		merge m:1 _sort using `_attributes', keepusing(`from' `to' `varlist' `myrank')
-		ren _sort _ID
-		drop _m
+		rename _sort _ID
+		capture drop _m
 			
 		order `from' `to' `varlist' _ID  _Y _X  _ORDER  `myrank'
 
