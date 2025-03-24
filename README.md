@@ -23,7 +23,7 @@ The package can be installed via SSC or GitHub. The GitHub version, *might* be m
 The SSC version (**v1.0**):
 
 ```stata
-COMING SOON
+ssc install geoflow, replace
 ```
 
 Or it can be installed from GitHub (**v1.0**):
