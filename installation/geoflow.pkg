@@ -1,11 +1,11 @@
-v 1.0
+v 1.1
 d {bf:GEOFLOW}: A Stata package for flows
 d
 d KW: Stata
 d KW: graphs
 d KW: gis
 d
-d Distribution-Date: 20250112
+d Distribution-Date: 20261030
 d License: MIT
 d
 d Author: Asjad Naqvi

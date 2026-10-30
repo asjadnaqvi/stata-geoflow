@@ -3,6 +3,6 @@ authors:
 - family-names: "Naqvi"
   given-names: "Asjad"
 title: "Stata package ``geoflow''"
-version: 1.0
-date-released: 2025-01-12
+version: 1.1
+date-released: 2026-10-30
 url: "https://github.com/asjadnaqvi/stata-geoflow"

@@ -1,9 +1,8 @@
-v 1.0
+v 1.1
 d GEOFLOW: A Stata package for generating flow arcs
 d  
-d Distribution-Date: 20250112
+d Distribution-Date: 20261030
 d
 d Asjad Naqvi
 d asjadnaqvi@gmail.com
 d https://medium.com/the-stata-guide
-
